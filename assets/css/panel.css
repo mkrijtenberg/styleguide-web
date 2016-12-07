@@ -66,14 +66,6 @@
     margin: 10px 0 0 0;
     padding: 10px 0 0 0;
     display: block; }
-  .builder-entry-content .box {
-    padding: 50px; }
-  .builder-entry-content .inline {
-    display: inline; }
-  .builder-entry-content .no-padding {
-    padding: 0 !important; }
-  .builder-entry-content .no-margin {
-    margin: 0 !important; }
   .builder-entry-content .container {
     max-width: 1130px; }
     .builder-entry-content .container-xs {
@@ -86,35 +78,8 @@
       max-width: 1200px; }
   .builder-entry-content .container img {
     max-width: 100%; }
-  .builder-entry-content .btn-md {
-    font-size: 16px; }
-  .builder-entry-content .btn i {
-    float: left;
-    margin-right: 10px;
-    line-height: 22px; }
-  .builder-entry-content .btn i.pull-right {
-    margin-left: 10px;
-    margin-right: 0; }
-  .builder-entry-content .readmore-container {
-    margin-top: 60px; }
-  .builder-entry-content .readmore {
-    font-weight: 600; }
-  .builder-entry-content .btn-sm.readmore > i {
-    font-size: 16px;
-    line-height: 18px; }
-  .builder-entry-content .list-links {
-    margin-top: 20px; }
-    .builder-entry-content .list-links li {
-      margin-bottom: 10px; }
-    .builder-entry-content .list-links li > a {
-      text-decoration: none !important; }
-  .builder-entry-content .list-social a, .builder-entry-content .list-social a:link, .builder-entry-content .list-social a:hover, .builder-entry-content .list-social a:active, .builder-entry-content .list-social a:focus {
-    text-decoration: none !important; }
   .builder-entry-content figure > img {
     max-width: 100%; }
-  .builder-entry-content .input-group-addon {
-    background-color: #05003F;
-    color: #fff; }
 
 .field-with-headline {
   padding-top: 50px; }

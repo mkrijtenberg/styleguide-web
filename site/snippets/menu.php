@@ -1,4 +1,7 @@
-<ul class="nav navbar-nav navbar-right">
+<ul class="nav navbar-nav">
+  <li>
+    <a href="<?php echo url() ?>" class="icon-only"><i class="icon-home"></i></a>
+  </li>
   <?php foreach($pages->visible() as $p): ?>
       <?php if($p->hasVisibleChildren()) : ?>
         <li class="dropdown <?php e($p->isOpen(), 'active') ?>">

@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <div class="navbar navbar-default navbar-fixed-top">
+  <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -26,15 +26,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="<?php echo url() ?>">
-            <img src="<?php echo url('assets/Content/Images/logo-50.png') ?>" alt="<?php echo $site->title()->html() ?>" />
-        </a>
       </div>
-      <ul class="nav navbar-nav navbar-left hidden-xs hidden-sm hidden-md">
-        <li><a href="<?php echo url() ?>"><?php echo $site->title()->html() ?></a></li>
-      </ul>
       <div class="navbar-collapse collapse">
         <?php snippet('menu') ?>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="<?php echo url('/panel') ?>" target="_blank" class="icon-only"><i class="icon-person-o"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

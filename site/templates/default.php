@@ -16,4 +16,6 @@
   </main>               
 </div>
 
+<?php snippet('prevnext') ?>
+
 <?php snippet('footer') ?>

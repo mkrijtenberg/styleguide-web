@@ -1,0 +1,26 @@
+.pager {
+    background-color: #01BAC6;
+    color: #fff;
+    margin: 0;
+
+    a {
+        padding: 20px 20px;
+        text-decoration: none;
+        color: #fff;
+
+        .title {
+            font-size: 23px;
+        }
+
+        &:hover {
+            background-color: darken(#01BAC6, 5%)
+        }
+    }
+
+    .text-left > span {
+        margin-left: 28px;
+    }
+    .text-right > span {
+        margin-right: 28px;
+    }
+}
