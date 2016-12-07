@@ -1,0 +1,164 @@
+Title: Dialogs
+
+----
+
+Builder: 
+
+- 
+  text: >
+    Dialogs inform users about a specific
+    task and may contain critical
+    information, require decisions, or
+    involve multiple tasks.
+  classname: big
+  _fieldset: text
+- 
+  imageleft: ""
+  imagecenter: ""
+  imageright: components_dialogs.png
+  titleleft: ""
+  titlecenter: ""
+  titleright: ""
+  bodyleft: |
+    Dialogs contain text and UI controls. They retain focus until dismissed or a required action has been taken. Use dialogs sparingly because they are interruptive.
+    
+    Some dialog types include:
+    
+    - **Alerts** are urgent interruptions that inform about a situation and require acknowledgement.
+    - **Simple menus** display options for list items, whereas **simple dialogs** can provide details or actions about a list item.
+    - **Confirmation dialogs** require users to explicitly confirm a choice.
+  bodycenter: |
+    **Behavior**
+    
+    Dialogs should never be obscured, either by other elements or the screen edge. Dialogs always retain focus until dismissed or a required action has been taken.
+    
+    **Full-screen dialogs (Mobile only)**
+    
+    Full-screen dialogs are best suited to complex tasks, or require an input method editor, as they group a series of tasks together before they can be saved.
+  bodyright: ""
+  _fieldset: imagecolumns
+- 
+  title: Behavior
+  _fieldset: title
+- 
+  text: |
+    ###Beyond standard dialogs
+    
+    Dialogs are a sub-type of modal windows, and the examples covered here are for standard material system dialogs. (Other modal window constructions aren’t covered here because they have too much variation, such as branded buttons for purchasing flows, non-standard UI form elements, or unique layouts.)
+  classname: normal
+  _fieldset: text
+- 
+  imageleft: ""
+  imagecenter: components_dialogs_content1.png
+  imageright: components_dialogs_fullscreen1.png
+  titleleft: ""
+  titlecenter: ""
+  titleright: ""
+  bodyleft: |
+    ###Reduce interruption
+    
+    Use dialogs sparingly because they are interruptive. Their sudden appearance forces users to stop their current task and focus on the dialog content. Not every choice, setting, or detail warrants interruption. Alternatives to dialogs include menus or inline expansion, both of which maintain the current context.
+    
+    ###Dialog prominence
+    
+    Dialogs should never be obscured by other elements or appear partially on screen. Dialogs always retain focus until dismissed or a required action has been taken, such as choosing a setting.
+    
+    Dialogs should avoid:
+    - Opening dialogs from within a dialog
+    - Containing scrolling content
+    
+    ###Full-screen dialog exception
+    
+    Full-screen dialogs may open additional dialogs, such as pickers, because their design accommodates additional layers of material without significantly increasing the app’s perceived z-depth or visual noise.
+  bodycenter: Example of dialog content
+  bodyright: Example of a full-screen dialog
+  _fieldset: imagecolumns
+- 
+  text: |
+    ###Scrollable content exception
+    
+    Some dialog content requires scrolling, such as lists of ringtones.
+    
+    - For scrollable lists of options, the dialog title remains pinned to the top. This ensures that a selected item remains visible with the title, regardless of the item’s position in the list.
+    - Otherwise, the title scrolls off with the content. Actions always remain in place when content scrolls.
+    Dialogs are separate from the underlying parent material and do not scroll with it.
+    
+    ###Displaying additional content
+    
+    To disclose additional content in a dialog, do so using inline expansion within the content area. Or consider alternative components that are optimized for large amounts of content.
+    
+    ###Dismissing dialogs
+    
+    Dialogs can be dismissed by touching/clicking outside of a dialog or by using the system back button (Android). Alternatively, dialog behavior can be overridden so that users must explicitly choose one of the actions.
+  img: components_dialogs_1.png
+  columnsize: 1/2
+  imgcaption: >
+    Make the dialog title fixed when viewing
+    a scrollable list of options ensures
+    that both the title and the selected
+    item are simultaneously visible.
+  _fieldset: textimage
+- 
+  _fieldset: line
+- 
+  title: Alerts
+  _fieldset: title
+- 
+  text: |
+    Alerts are urgent interruptions, requiring acknowledgement, that inform the user about a situation.
+    
+    **Disambiguation from Snackbars:** Snackbars present optional information after an action, such as confirming the discarding of a draft. They often allow a user to undo an action just taken.
+  classname: normal
+  _fieldset: text
+- 
+  imageleft: ""
+  imagecenter: components_alerts_1.png
+  imageright: components_alerts_2.png
+  titleleft: ""
+  titlecenter: ""
+  titleright: ""
+  bodyleft: |
+    ###Alerts without title bars
+    
+    Most alerts don't need titles.
+    
+    They summarize a decision in a sentence or two by either:
+    
+    Asking a question (e.g. "Delete this conversation?")
+    Making a statement related to the action buttons
+  bodycenter: >
+    (do:) The affirmative action text
+    “Discard” clearly indicates the
+    outcome of the decision.
+  bodyright: >
+    (dont:) The dismissive action text
+    “No” answers the question, but does
+    not suggest what will happen afterwards.
+    A better action pair would be an
+    explicit “Cancel” and “Delete.”
+  _fieldset: imagecolumns
+- 
+  imageleft: ""
+  imagecenter: components_dialogs_alerts4.png
+  imageright: components_dialogs_usage1.png
+  titleleft: ""
+  titlecenter: ""
+  titleright: ""
+  bodyleft: |
+    ###Alerts with title bars
+    
+    Use title bar alerts only for high-risk situations, such as the potential loss of connectivity. Users should be able to understand the choices based on the title and button text alone.
+    
+    If a title is required:
+    
+    Use a clear question or statement with an explanation in the content area, such as "Erase USB storage?".
+    Avoid apologies, ambiguity, or questions, such as “Warning!” or “Are you sure?”
+  bodycenter: >
+    (do:) This dialog poses a specific
+    question, concisely elaborates on its
+    impact, and provides clear actions.
+  bodyright: >
+    (dont:) This dialog poses an ambiguous
+    question and its scope of impact is
+    unclear.
+  _fieldset: imagecolumns

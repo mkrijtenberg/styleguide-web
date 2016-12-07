@@ -30,7 +30,7 @@
             <img src="<?php echo url('assets/Content/Images/logo-50.png') ?>" alt="<?php echo $site->title()->html() ?>" />
         </a>
       </div>
-      <ul class="nav navbar-nav navbar-left">
+      <ul class="nav navbar-nav navbar-left hidden-xs hidden-sm hidden-md">
         <li><a href="<?php echo url() ?>"><?php echo $site->title()->html() ?></a></li>
       </ul>
       <div class="navbar-collapse collapse">

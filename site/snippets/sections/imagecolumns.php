@@ -12,13 +12,15 @@
     $gridcol = (12 / $colcount);
 ?>
 
-<div class="row">
+<div class="row imagecolumns">
 
     <?php if ($data->titleleft()->isNotEmpty() || $data->imageleft()->isNotEmpty() || $data->bodyleft()->isNotEmpty()) : ?>
 
     <div class="col-md-<?php echo $gridcol ?>">
         <?php if ($data->imageleft()->isNotEmpty()) : ?>
-            <img src="<?php echo thumb($page->image($data->imageleft()), array('width' => 400, 'height' => 400))->url() ?>" alt="" class="img-responsive" />
+            <figure class="<?php e($data->titleleft()->isNotEmpty(), "with-title") ?>">
+                <img src="<?php echo thumb($page->image($data->imageleft()), array('width' => 400))->url() ?>" alt="" class="img-responsive" />
+            </figure>
         <?php endif ?>
         <?php if ($data->titleleft()->isNotEmpty()) : ?>
             <h3><?php echo $data->titleleft() ?></h3>
@@ -32,7 +34,9 @@
 
     <div class="col-md-<?php echo $gridcol ?>">
         <?php if ($data->imagecenter()->isNotEmpty()) : ?>
-            <img src="<?php echo thumb($page->image($data->imagecenter()), array('width' => 400, 'height' => 400))->url() ?>" alt="" class="img-responsive" />
+            <figure class="<?php e($data->titlecenter()->isNotEmpty(), "with-title") ?>">
+                <img src="<?php echo thumb($page->image($data->imagecenter()), array('width' => 400))->url() ?>" alt="" class="img-responsive" />
+            </figure>
         <?php endif ?>
         <?php if ($data->titlecenter()->isNotEmpty()) : ?>
             <h3><?php echo $data->titlecenter() ?></h3>
@@ -46,7 +50,9 @@
 
     <div class="col-md-<?php echo $gridcol ?>">
         <?php if ($data->imageright()->isNotEmpty()) : ?>
-            <img src="<?php echo thumb($page->image($data->imageright()), array('width' => 400, 'height' => 400))->url() ?>" alt="" class="img-responsive" />
+            <figure class="<?php e($data->titleright()->isNotEmpty(), "with-title") ?>">
+                <img src="<?php echo thumb($page->image($data->imageright()), array('width' => 400))->url() ?>" alt="" class="img-responsive" />
+            </figure>
         <?php endif ?>
         <?php if ($data->titleright()->isNotEmpty()) : ?>
             <h3><?php echo $data->titleright() ?></h3>

@@ -19,6 +19,11 @@
         <?php echo $data->text()->kirbytext() ?>
     </div>
     <div class="col-md-<?php echo $colright ?>">
-        <img src="<?php echo thumb($page->image($data->img()), array('width' => 1920))->url() ?>" alt="" class="img-responsive" />
+        <figure>
+            <img src="<?php echo thumb($page->image($data->img()), array('width' => 1920))->url() ?>" alt="" class="img-responsive" />
+            <?php if ($data->imgcaption()->isNotEmpty()) : ?>
+                <figcaption><?php echo $data->imgcaption() ?></figcaption>
+            <?php endif ?>
+        </figure>
     </div>
 </div>

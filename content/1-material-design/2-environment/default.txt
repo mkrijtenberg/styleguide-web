@@ -45,3 +45,29 @@ Builder:
   img: whatismaterial_environment_3d.png
   columnsize: 1/2
   _fieldset: textimage
+  imgcaption: 3D space with x, y, and z axes
+- 
+  _fieldset: line
+- 
+  title: Light and shadow
+  _fieldset: title
+- 
+  text: |
+    Within the material environment, virtual lights illuminate the scene. Key lights create directional shadows, while ambient light creates soft shadows from all angles.
+    
+    Shadows in the material environment are cast by these two light sources. In Android development, shadows occur when light sources are blocked by sheets of material at various positions along the z-axis. On the web, shadows are depicted by manipulating the y-axis only. The following example shows the card with a height of 6dp.
+  classname: normal
+  _fieldset: text
+- 
+  imageleft: whatismaterial_environment_shadow1.png
+  imagecenter: whatismaterial_environment_shadow2.png
+  imageright: whatismaterial_environment_shadow3.png
+  titleleft: ""
+  titlecenter: ""
+  titleright: ""
+  bodyleft: Shadow cast by key light
+  bodycenter: Shadow cast by ambient light
+  bodyright: >
+    Combined shadow from key and ambient
+    lights
+  _fieldset: imagecolumns
