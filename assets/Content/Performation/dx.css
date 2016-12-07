@@ -1,0 +1,222 @@
+﻿@charset "UTF-8";
+.dx-texteditor {
+  border-radius: 0;
+  border: 1px solid #C8C8C8; }
+
+.dx-texteditor.dx-state-focused,
+.dx-texteditor.dx-state-active {
+  border-color: #6E6E6E; }
+
+.dx-menu-base,
+.dx-widget {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 13px; }
+
+/*** Data Grid ***/
+.dx-datagrid {
+  background-color: transparent; }
+  .dx-datagrid .dx-header-row > td,
+  .dx-datagrid .dx-row > td {
+    padding: 5px; }
+  .dx-datagrid .toolbar-paging-info {
+    line-height: 30px; }
+
+.dx-datagrid .dx-row-lines > td {
+  border-bottom: 1px solid #E1E1E1; }
+
+.dx-datagrid .dx-column-indicators {
+  float: right; }
+
+.dx-datagrid .dx-header-row > td {
+  background-color: #182883;
+  color: #fff;
+  line-height: 1.42857;
+  font-weight: bold; }
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+  border-bottom: none; }
+
+.dx-indicator-alignment-right {
+  float: right !important; }
+
+.dx-datagrid .dx-datagrid-rowsview {
+  background-color: #fff; }
+  .dx-datagrid .dx-datagrid-rowsview .dx-datagrid-table > tbody > tr:hover {
+    background-color: #f5f5f5; }
+  .dx-datagrid .dx-datagrid-rowsview .dx-row.dx-group-row,
+  .dx-datagrid .dx-datagrid-rowsview .dx-row.dx-group-row > td {
+    color: #3c3c3c;
+    background-color: transparent;
+    font-weight: bold; }
+
+.row-clickable .dx-datagrid-table > tbody > tr {
+  cursor: pointer; }
+
+table a:not(.btn),
+.table a:not(.btn) {
+  text-decoration: none; }
+
+.dx-datagrid .dx-datagrid-headers .dx-header-filter {
+  color: inherit; }
+
+/*** Button ***/
+.dx-button {
+  border-radius: 0;
+  color: #fff;
+  background-color: #6E6E6E;
+  border-color: #6E6E6E; }
+  .dx-button:focus, .dx-button.focus {
+    color: #fff;
+    background-color: #555555;
+    border-color: #2e2e2e; }
+  .dx-button:hover {
+    color: #fff;
+    background-color: #555555;
+    border-color: #4f4f4f; }
+  .dx-button:active, .dx-button.active,
+  .open > .dx-button.dropdown-toggle {
+    color: #fff;
+    background-color: #555555;
+    border-color: #4f4f4f; }
+    .dx-button:active:hover, .dx-button:active:focus, .dx-button:active.focus, .dx-button.active:hover, .dx-button.active:focus, .dx-button.active.focus,
+    .open > .dx-button.dropdown-toggle:hover,
+    .open > .dx-button.dropdown-toggle:focus,
+    .open > .dx-button.dropdown-toggle.focus {
+      color: #fff;
+      background-color: #434343;
+      border-color: #2e2e2e; }
+  .dx-button:active, .dx-button.active,
+  .open > .dx-button.dropdown-toggle {
+    background-image: none; }
+  .dx-button.disabled:hover, .dx-button.disabled:focus, .dx-button.disabled.focus, .dx-button[disabled]:hover, .dx-button[disabled]:focus, .dx-button[disabled].focus,
+  fieldset[disabled] .dx-button:hover,
+  fieldset[disabled] .dx-button:focus,
+  fieldset[disabled] .dx-button.focus {
+    background-color: #6E6E6E;
+    border-color: #6E6E6E; }
+  .dx-button .badge {
+    color: #6E6E6E;
+    background-color: #fff; }
+  .dx-button.dx-state-hover {
+    color: #fff;
+    text-decoration: none; }
+
+.dx-button-has-text .dx-button-content {
+  padding: 5px 10px;
+  font-size: 13px;
+  line-height: 1.42857;
+  border-radius: 0; }
+
+/*** Pager ***/
+.dx-datagrid-pager {
+  border-top: none;
+  margin: 18px 0; }
+
+.dx-pager .dx-pages {
+  padding-top: 0;
+  padding-bottom: 0;
+  float: left; }
+  .dx-pager .dx-pages .dx-page {
+    background-color: #fff;
+    color: #6E6E6E;
+    padding: 5px 10px;
+    border-radius: 0;
+    border: 1px solid #C8C8C8;
+    margin-left: -1px;
+    margin-right: 0; }
+    .dx-pager .dx-pages .dx-page:hover, .dx-pager .dx-pages .dx-page:active, .dx-pager .dx-pages .dx-page:focus {
+      background-color: #C8C8C8;
+      color: #fff; }
+    .dx-pager .dx-pages .dx-page.dx-selection {
+      background-color: #C8C8C8;
+      color: #fff !important; }
+  .dx-pager .dx-pages .dx-navigate-button {
+    background-color: #fff;
+    color: #6E6E6E;
+    padding: 5px 10px;
+    border: 1px solid #C8C8C8;
+    margin-left: -1px;
+    margin-right: 0;
+    font-size: 16px;
+    height: 18px; }
+    @media screen and (-webkit-min-device-pixel-ratio: 0) {
+      .dx-pager .dx-pages .dx-navigate-button {
+        height: 18px; } }
+    .dx-pager .dx-pages .dx-navigate-button:hover, .dx-pager .dx-pages .dx-navigate-button:active, .dx-pager .dx-pages .dx-navigate-button:focus {
+      background-color: #C8C8C8;
+      color: #fff; }
+    .dx-pager .dx-pages .dx-navigate-button.dx-button-disable {
+      opacity: 1;
+      background-color: #fff;
+      color: #C8C8C8;
+      cursor: not-allowed; }
+  .dx-pager .dx-pages .dx-prev-button {
+    margin-left: 0; }
+
+.dx-pager .dx-pages .dx-pager .dx-pages .dx-selection,
+.dx-pager .dx-page-sizes .dx-selection {
+  background-color: #C8C8C8;
+  color: #fff; }
+
+/*** Custom toolbar buttons ***/
+.dx-datagrid-toolbar-panel {
+  display: flex;
+  /* Chrome fix */
+  float: right;
+  margin-bottom: 10px;
+  -ms-touch-action: pinch-zoom; }
+
+/*** Popups ****/
+.dx-popup-wrapper > .dx-overlay-content {
+  border-radius: 0; }
+
+/*** Icons ***/
+.dx-icon-clear::before {
+  font-family: 'Performation';
+  content: ""; }
+
+.dx-datagrid .dx-icon-filter-operation-default::before {
+  font-family: 'Performation';
+  content: ""; }
+
+.dx-datagrid .dx-sort-up::before {
+  font-family: 'Performation';
+  content: ""; }
+
+.dx-datagrid .dx-sort-down::before {
+  font-family: 'Performation';
+  content: ""; }
+
+.dx-searchbox .dx-icon-search::before {
+  font-family: 'Performation';
+  content: ""; }
+
+.dx-datagrid .dx-header-filter::before {
+  font-family: 'Performation';
+  content: ""; }
+
+.dx-datagrid-group-opened::before {
+  font-family: 'Performation';
+  font-size: 13px !important;
+  content: ""; }
+
+.dx-datagrid-group-closed::before {
+  font-family: 'Performation';
+  font-size: 13px !important;
+  content: ""; }
+
+.dx-pager .dx-pages .dx-prev-button::before {
+  font-family: 'Performation';
+  content: ""; }
+
+.dx-pager .dx-pages .dx-next-button::before {
+  font-family: 'Performation';
+  content: ""; }
+
+.dx-checkbox-indeterminate .dx-checkbox-icon,
+.dx-checkbox-checked .dx-checkbox-icon {
+  color: #3c3c3c; }
+
+a.csv > i {
+  margin-right: 5px; }
+

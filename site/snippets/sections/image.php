@@ -1,0 +1,1 @@
+<img src="<?php echo thumb($page->image($data->coverimage()), array('width' => 1920))->url() ?>" alt="" class="img-responsive" />

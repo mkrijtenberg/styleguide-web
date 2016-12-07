@@ -1,0 +1,26 @@
+
+@mixin open-sans($weight, $font-name, $font-file) {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: $weight;
+  src: local($font-name), local('#{$font-file}'), url("../fonts/#{$font-file}.woff2") format('woff2'), url("../fonts/#{$font-file}.woff") format('woff'), url("../fonts/#{$font-file}.svg") format('svg');
+}
+
+
+/* latin */
+@font-face {
+    @include open-sans(300, 'Open Sans Light', 'OpenSans-Light');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+
+/* latin */
+@font-face {
+    @include open-sans(400, 'Open Sans', 'OpenSans-Regular');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin */
+@font-face {
+    @include open-sans(600, 'Open Sans Semibold', 'OpenSans-Semibold');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}

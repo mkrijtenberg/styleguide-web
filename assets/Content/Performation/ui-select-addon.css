@@ -1,0 +1,97 @@
+﻿.ui-select-choices-row:hover {
+  background-color: #182883; }
+
+.ui-select-container[theme="select2"].direction-up .ui-select-match {
+  border-radius: 0;
+  /* FIXME hardcoded value :-/ */ }
+
+.ui-select-container[theme="select2"].direction-up .ui-select-dropdown {
+  border-radius: 0;
+  /* FIXME hardcoded value :-/ */ }
+
+.ui-select-bootstrap .ui-select-toggle {
+  overflow: hidden; }
+
+.ui-select-bootstrap .ui-select-toggle > .caret {
+  position: absolute;
+  display: block;
+  background: url("../images/ui-select-caret-down.png") no-repeat center center;
+  height: 28px;
+  width: 23px;
+  top: 0;
+  right: 0;
+  border: 0; }
+
+.form-group-sm .ui-select-bootstrap .ui-select-toggle > .caret {
+  height: 24px;
+  width: 20px;
+  top: 0;
+  right: 0;
+  border: 0; }
+
+.input-group > .ui-select-bootstrap > input.ui-select-search.form-control {
+  border-radius: 0;
+  /* FIXME hardcoded value :-/ */ }
+
+.ui-select-bootstrap > .ui-select-match > .btn {
+  white-space: inherit; }
+
+.ui-select-bootstrap > .ui-select-match > .caret {
+  background: #C8C8C8; }
+
+.ui-select-multiple.ui-select-bootstrap .ui-select-match .close {
+  float: left;
+  margin-left: -5px;
+  margin-right: 3px;
+  font-size: 14px;
+  line-height: 16px; }
+
+.ui-select-bootstrap .ui-select-choices-row > a {
+  padding: 3px 10px;
+  white-space: normal; }
+
+.ui-select-bootstrap .ui-select-choices-row > a:hover, .ui-select-bootstrap .ui-select-choices-row > a:focus {
+  color: #fff;
+  background-color: #182883; }
+
+.ui-select-bootstrap .ui-select-choices-row.active > a {
+  background-color: #182883; }
+
+.ui-select-bootstrap .ui-select-match-item.btn {
+  background-color: #E1E1E1;
+  color: #3c3c3c;
+  border-color: #C8C8C8;
+  white-space: normal;
+  text-align: left; }
+  .ui-select-bootstrap .ui-select-match-item.btn .ui-select-match-close {
+    color: #6E6E6E; }
+
+.ui-select-toggle.btn-default, .ui-select-toggle.btn-default:focus, .ui-select-toggle.btn-default.focus {
+  color: #3c3c3c;
+  background-color: #fff;
+  border-color: #E1E1E1; }
+
+.ui-select-toggle a.btn-link {
+  color: #b2b2b2;
+  margin-right: 15px !important;
+  margin-top: -1px; }
+
+.filterChanged,
+.filterChangedAdded.filterChangedRemoved {
+  border-left: 3px solid #ec6c04 !important; }
+
+.filterChangedRemoved {
+  border-left: 3px solid #e20058 !important; }
+
+.filterChangedAdded {
+  border-left: 3px solid #64af64 !important; }
+
+.filterItemRemoved {
+  border: 1px solid #e20058 !important; }
+
+.filterItemAdded {
+  border: 1px solid #64af64 !important; }
+
+input.ui-select-search {
+  width: 100% !important; }
+

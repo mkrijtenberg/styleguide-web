@@ -1,0 +1,13 @@
+Title: Styleguide
+
+----
+
+Author: Performation
+
+----
+
+Description: Performation style guide
+
+----
+
+Copyright: © (date: Year) (link: http://www.performation.nl: Performation)

@@ -1,0 +1,113 @@
+label: Sections
+type: builder
+fieldsets:
+  image:
+    label: Image
+    snippet: sections/image
+    fields:
+      coverimage:
+        label: Cover Image
+        type: image
+        required: true
+
+
+  text:
+    label: Text
+    snippet: sections/text
+    fields:
+      text:
+        label: Body
+        type: textarea
+        required: true
+      classname:
+        label: Style
+        type: select
+        width: 1/3
+        required: true
+        options:
+          'normal': normal
+          'big'   : big
+
+
+  title:
+    label: Title
+    snippet: sections/title
+    fields:
+      title:
+        label: Title
+        type: text
+        required: true
+
+
+  textimage:
+    label: Text/Image
+    snippet: sections/textimage
+    fields:
+      text:
+        label: Text
+        type: textarea
+        required: true
+      img:
+        label: Image
+        type: image
+        required: true
+        width: 1/2
+      columnsize:
+        label: Column size
+        required: true
+        width: 1/2
+        type: select
+        options:
+            '1/1': 1/1
+            '2/1': 2/1
+            '1/2': 1/2
+      imgcaption:
+        label: Caption
+        type: text
+        width: 1/2
+
+
+  line:
+    label: Line
+    snippet: sections/line
+
+
+  imagecolumns:
+    label: Image Columns
+    snippet: sections/imagecolumns
+    fields:
+      imageleft:
+        label: Column 1
+        type: image
+        width: 1/3
+      imagecenter:
+        label: Column 2
+        type: image
+        width: 1/3
+      imageright:
+        label: Column 3
+        type: image
+        width: 1/3
+      titleleft:
+        type: text
+        placeholder: Titel
+        width: 1/3
+      titlecenter:
+        type: text
+        placeholder: Titel
+        width: 1/3
+      titleright:
+        type: text
+        placeholder: Titel            
+        width: 1/3
+      bodyleft:
+        type: textarea
+        width: 1/3
+      bodycenter:
+        type: textarea
+        width: 1/3
+      bodyright:
+        type: textarea
+        width: 1/3
+                
+      

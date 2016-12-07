@@ -1,0 +1,106 @@
+@import "components/open-sans";
+
+.builder-entry-content {
+    font-size: 13px;
+
+    h2 {
+        font-size: 27px;
+        font-weight: normal;
+        margin: 0;
+    }
+
+    @import "components/common";
+    @import "components/navbar";
+}
+
+.field-with-headline {
+    padding-top: 50px;
+}
+
+.row {
+    zoom: 1;
+}
+.row:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6 {
+    width: 50%;
+    float: left;
+}
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4 {
+    width: 33%;
+    float: left;
+}
+.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8 {
+    width: 66%;
+    float: left;
+}
+
+.builder-entry-content * {
+    font-family: 'Open Sans'
+}
+
+.container {
+    margin: 0 auto;
+}
+
+
+.block {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    .container {
+        padding: 50px 50px;
+    }
+
+}
+
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+
+.tile-link-wrapper {
+    position: relative;
+}
+
+
+.jumbotron {
+
+    .container-fluid {
+        height: 300px;
+        padding: 20px 50px;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    h1 {
+        font-family: 'Open Sans';
+        color: #fff;
+        font-size: 40px;
+        line-height: 120%;
+    }
+}
+
+.single-tile-link-wrapper {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.field-buttons ul {
+    margin-bottom: 0;
+}

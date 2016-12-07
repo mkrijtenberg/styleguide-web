@@ -1,0 +1,277 @@
+﻿.ui-iconpicker-md > button > i {
+  font-size: 20px; }
+
+.ui-iconpicker-md > ul.dropdown-menu > li button {
+  height: 40px !important;
+  width: 40px !important; }
+  .ui-iconpicker-md > ul.dropdown-menu > li button > span {
+    font-size: 20px; }
+
+.ui-iconpicker-lg > button > i {
+  font-size: 24px; }
+
+.ui-iconpicker-lg > ul.dropdown-menu > li button {
+  height: 50px !important;
+  width: 50px !important; }
+  .ui-iconpicker-lg > ul.dropdown-menu > li button > span {
+    font-size: 24px; }
+
+.ui-iconpicker.brand-default > button {
+  color: #fff;
+  background-color: #6E6E6E;
+  border-color: #6E6E6E; }
+  .ui-iconpicker.brand-default > button:focus, .ui-iconpicker.brand-default > button.focus {
+    color: #fff;
+    background-color: #555555;
+    border-color: #2e2e2e; }
+  .ui-iconpicker.brand-default > button:hover {
+    color: #fff;
+    background-color: #555555;
+    border-color: #4f4f4f; }
+  .ui-iconpicker.brand-default > button:active, .ui-iconpicker.brand-default > button.active,
+  .open > .ui-iconpicker.brand-default > button.dropdown-toggle {
+    color: #fff;
+    background-color: #555555;
+    border-color: #4f4f4f; }
+    .ui-iconpicker.brand-default > button:active:hover, .ui-iconpicker.brand-default > button:active:focus, .ui-iconpicker.brand-default > button:active.focus, .ui-iconpicker.brand-default > button.active:hover, .ui-iconpicker.brand-default > button.active:focus, .ui-iconpicker.brand-default > button.active.focus,
+    .open > .ui-iconpicker.brand-default > button.dropdown-toggle:hover,
+    .open > .ui-iconpicker.brand-default > button.dropdown-toggle:focus,
+    .open > .ui-iconpicker.brand-default > button.dropdown-toggle.focus {
+      color: #fff;
+      background-color: #434343;
+      border-color: #2e2e2e; }
+  .ui-iconpicker.brand-default > button:active, .ui-iconpicker.brand-default > button.active,
+  .open > .ui-iconpicker.brand-default > button.dropdown-toggle {
+    background-image: none; }
+  .ui-iconpicker.brand-default > button.disabled:hover, .ui-iconpicker.brand-default > button.disabled:focus, .ui-iconpicker.brand-default > button.disabled.focus, .ui-iconpicker.brand-default > button[disabled]:hover, .ui-iconpicker.brand-default > button[disabled]:focus, .ui-iconpicker.brand-default > button[disabled].focus,
+  fieldset[disabled] .ui-iconpicker.brand-default > button:hover,
+  fieldset[disabled] .ui-iconpicker.brand-default > button:focus,
+  fieldset[disabled] .ui-iconpicker.brand-default > button.focus {
+    background-color: #6E6E6E;
+    border-color: #6E6E6E; }
+  .ui-iconpicker.brand-default > button .badge {
+    color: #6E6E6E;
+    background-color: #fff; }
+
+.ui-iconpicker.brand-primary > button {
+  color: #fff;
+  background-color: #182883;
+  border-color: #182883; }
+  .ui-iconpicker.brand-primary > button:focus, .ui-iconpicker.brand-primary > button.focus {
+    color: #fff;
+    background-color: #101b58;
+    border-color: #040717; }
+  .ui-iconpicker.brand-primary > button:hover {
+    color: #fff;
+    background-color: #101b58;
+    border-color: #0f184f; }
+  .ui-iconpicker.brand-primary > button:active, .ui-iconpicker.brand-primary > button.active,
+  .open > .ui-iconpicker.brand-primary > button.dropdown-toggle {
+    color: #fff;
+    background-color: #101b58;
+    border-color: #0f184f; }
+    .ui-iconpicker.brand-primary > button:active:hover, .ui-iconpicker.brand-primary > button:active:focus, .ui-iconpicker.brand-primary > button:active.focus, .ui-iconpicker.brand-primary > button.active:hover, .ui-iconpicker.brand-primary > button.active:focus, .ui-iconpicker.brand-primary > button.active.focus,
+    .open > .ui-iconpicker.brand-primary > button.dropdown-toggle:hover,
+    .open > .ui-iconpicker.brand-primary > button.dropdown-toggle:focus,
+    .open > .ui-iconpicker.brand-primary > button.dropdown-toggle.focus {
+      color: #fff;
+      background-color: #0b123a;
+      border-color: #040717; }
+  .ui-iconpicker.brand-primary > button:active, .ui-iconpicker.brand-primary > button.active,
+  .open > .ui-iconpicker.brand-primary > button.dropdown-toggle {
+    background-image: none; }
+  .ui-iconpicker.brand-primary > button.disabled:hover, .ui-iconpicker.brand-primary > button.disabled:focus, .ui-iconpicker.brand-primary > button.disabled.focus, .ui-iconpicker.brand-primary > button[disabled]:hover, .ui-iconpicker.brand-primary > button[disabled]:focus, .ui-iconpicker.brand-primary > button[disabled].focus,
+  fieldset[disabled] .ui-iconpicker.brand-primary > button:hover,
+  fieldset[disabled] .ui-iconpicker.brand-primary > button:focus,
+  fieldset[disabled] .ui-iconpicker.brand-primary > button.focus {
+    background-color: #182883;
+    border-color: #182883; }
+  .ui-iconpicker.brand-primary > button .badge {
+    color: #182883;
+    background-color: #fff; }
+
+.ui-iconpicker.brand-success > button {
+  color: #fff;
+  background-color: #64af64;
+  border-color: #64af64; }
+  .ui-iconpicker.brand-success > button:focus, .ui-iconpicker.brand-success > button.focus {
+    color: #fff;
+    background-color: #4c944c;
+    border-color: #326132; }
+  .ui-iconpicker.brand-success > button:hover {
+    color: #fff;
+    background-color: #4c944c;
+    border-color: #498d49; }
+  .ui-iconpicker.brand-success > button:active, .ui-iconpicker.brand-success > button.active,
+  .open > .ui-iconpicker.brand-success > button.dropdown-toggle {
+    color: #fff;
+    background-color: #4c944c;
+    border-color: #498d49; }
+    .ui-iconpicker.brand-success > button:active:hover, .ui-iconpicker.brand-success > button:active:focus, .ui-iconpicker.brand-success > button:active.focus, .ui-iconpicker.brand-success > button.active:hover, .ui-iconpicker.brand-success > button.active:focus, .ui-iconpicker.brand-success > button.active.focus,
+    .open > .ui-iconpicker.brand-success > button.dropdown-toggle:hover,
+    .open > .ui-iconpicker.brand-success > button.dropdown-toggle:focus,
+    .open > .ui-iconpicker.brand-success > button.dropdown-toggle.focus {
+      color: #fff;
+      background-color: #407c40;
+      border-color: #326132; }
+  .ui-iconpicker.brand-success > button:active, .ui-iconpicker.brand-success > button.active,
+  .open > .ui-iconpicker.brand-success > button.dropdown-toggle {
+    background-image: none; }
+  .ui-iconpicker.brand-success > button.disabled:hover, .ui-iconpicker.brand-success > button.disabled:focus, .ui-iconpicker.brand-success > button.disabled.focus, .ui-iconpicker.brand-success > button[disabled]:hover, .ui-iconpicker.brand-success > button[disabled]:focus, .ui-iconpicker.brand-success > button[disabled].focus,
+  fieldset[disabled] .ui-iconpicker.brand-success > button:hover,
+  fieldset[disabled] .ui-iconpicker.brand-success > button:focus,
+  fieldset[disabled] .ui-iconpicker.brand-success > button.focus {
+    background-color: #64af64;
+    border-color: #64af64; }
+  .ui-iconpicker.brand-success > button .badge {
+    color: #64af64;
+    background-color: #fff; }
+
+.ui-iconpicker.brand-info > button {
+  color: #fff;
+  background-color: #009DE0;
+  border-color: #009DE0; }
+  .ui-iconpicker.brand-info > button:focus, .ui-iconpicker.brand-info > button.focus {
+    color: #fff;
+    background-color: #0079ad;
+    border-color: #004461; }
+  .ui-iconpicker.brand-info > button:hover {
+    color: #fff;
+    background-color: #0079ad;
+    border-color: #0072a3; }
+  .ui-iconpicker.brand-info > button:active, .ui-iconpicker.brand-info > button.active,
+  .open > .ui-iconpicker.brand-info > button.dropdown-toggle {
+    color: #fff;
+    background-color: #0079ad;
+    border-color: #0072a3; }
+    .ui-iconpicker.brand-info > button:active:hover, .ui-iconpicker.brand-info > button:active:focus, .ui-iconpicker.brand-info > button:active.focus, .ui-iconpicker.brand-info > button.active:hover, .ui-iconpicker.brand-info > button.active:focus, .ui-iconpicker.brand-info > button.active.focus,
+    .open > .ui-iconpicker.brand-info > button.dropdown-toggle:hover,
+    .open > .ui-iconpicker.brand-info > button.dropdown-toggle:focus,
+    .open > .ui-iconpicker.brand-info > button.dropdown-toggle.focus {
+      color: #fff;
+      background-color: #006089;
+      border-color: #004461; }
+  .ui-iconpicker.brand-info > button:active, .ui-iconpicker.brand-info > button.active,
+  .open > .ui-iconpicker.brand-info > button.dropdown-toggle {
+    background-image: none; }
+  .ui-iconpicker.brand-info > button.disabled:hover, .ui-iconpicker.brand-info > button.disabled:focus, .ui-iconpicker.brand-info > button.disabled.focus, .ui-iconpicker.brand-info > button[disabled]:hover, .ui-iconpicker.brand-info > button[disabled]:focus, .ui-iconpicker.brand-info > button[disabled].focus,
+  fieldset[disabled] .ui-iconpicker.brand-info > button:hover,
+  fieldset[disabled] .ui-iconpicker.brand-info > button:focus,
+  fieldset[disabled] .ui-iconpicker.brand-info > button.focus {
+    background-color: #009DE0;
+    border-color: #009DE0; }
+  .ui-iconpicker.brand-info > button .badge {
+    color: #009DE0;
+    background-color: #fff; }
+
+.ui-iconpicker.brand-warning > button {
+  color: #fff;
+  background-color: #ec6c04;
+  border-color: #ec6c04; }
+  .ui-iconpicker.brand-warning > button:focus, .ui-iconpicker.brand-warning > button.focus {
+    color: #fff;
+    background-color: #ba5503;
+    border-color: #6f3302; }
+  .ui-iconpicker.brand-warning > button:hover {
+    color: #fff;
+    background-color: #ba5503;
+    border-color: #b05003; }
+  .ui-iconpicker.brand-warning > button:active, .ui-iconpicker.brand-warning > button.active,
+  .open > .ui-iconpicker.brand-warning > button.dropdown-toggle {
+    color: #fff;
+    background-color: #ba5503;
+    border-color: #b05003; }
+    .ui-iconpicker.brand-warning > button:active:hover, .ui-iconpicker.brand-warning > button:active:focus, .ui-iconpicker.brand-warning > button:active.focus, .ui-iconpicker.brand-warning > button.active:hover, .ui-iconpicker.brand-warning > button.active:focus, .ui-iconpicker.brand-warning > button.active.focus,
+    .open > .ui-iconpicker.brand-warning > button.dropdown-toggle:hover,
+    .open > .ui-iconpicker.brand-warning > button.dropdown-toggle:focus,
+    .open > .ui-iconpicker.brand-warning > button.dropdown-toggle.focus {
+      color: #fff;
+      background-color: #974503;
+      border-color: #6f3302; }
+  .ui-iconpicker.brand-warning > button:active, .ui-iconpicker.brand-warning > button.active,
+  .open > .ui-iconpicker.brand-warning > button.dropdown-toggle {
+    background-image: none; }
+  .ui-iconpicker.brand-warning > button.disabled:hover, .ui-iconpicker.brand-warning > button.disabled:focus, .ui-iconpicker.brand-warning > button.disabled.focus, .ui-iconpicker.brand-warning > button[disabled]:hover, .ui-iconpicker.brand-warning > button[disabled]:focus, .ui-iconpicker.brand-warning > button[disabled].focus,
+  fieldset[disabled] .ui-iconpicker.brand-warning > button:hover,
+  fieldset[disabled] .ui-iconpicker.brand-warning > button:focus,
+  fieldset[disabled] .ui-iconpicker.brand-warning > button.focus {
+    background-color: #ec6c04;
+    border-color: #ec6c04; }
+  .ui-iconpicker.brand-warning > button .badge {
+    color: #ec6c04;
+    background-color: #fff; }
+
+.ui-iconpicker.brand-danger > button {
+  color: #fff;
+  background-color: #e20058;
+  border-color: #e20058; }
+  .ui-iconpicker.brand-danger > button:focus, .ui-iconpicker.brand-danger > button.focus {
+    color: #fff;
+    background-color: #af0044;
+    border-color: #630026; }
+  .ui-iconpicker.brand-danger > button:hover {
+    color: #fff;
+    background-color: #af0044;
+    border-color: #a50040; }
+  .ui-iconpicker.brand-danger > button:active, .ui-iconpicker.brand-danger > button.active,
+  .open > .ui-iconpicker.brand-danger > button.dropdown-toggle {
+    color: #fff;
+    background-color: #af0044;
+    border-color: #a50040; }
+    .ui-iconpicker.brand-danger > button:active:hover, .ui-iconpicker.brand-danger > button:active:focus, .ui-iconpicker.brand-danger > button:active.focus, .ui-iconpicker.brand-danger > button.active:hover, .ui-iconpicker.brand-danger > button.active:focus, .ui-iconpicker.brand-danger > button.active.focus,
+    .open > .ui-iconpicker.brand-danger > button.dropdown-toggle:hover,
+    .open > .ui-iconpicker.brand-danger > button.dropdown-toggle:focus,
+    .open > .ui-iconpicker.brand-danger > button.dropdown-toggle.focus {
+      color: #fff;
+      background-color: #8b0036;
+      border-color: #630026; }
+  .ui-iconpicker.brand-danger > button:active, .ui-iconpicker.brand-danger > button.active,
+  .open > .ui-iconpicker.brand-danger > button.dropdown-toggle {
+    background-image: none; }
+  .ui-iconpicker.brand-danger > button.disabled:hover, .ui-iconpicker.brand-danger > button.disabled:focus, .ui-iconpicker.brand-danger > button.disabled.focus, .ui-iconpicker.brand-danger > button[disabled]:hover, .ui-iconpicker.brand-danger > button[disabled]:focus, .ui-iconpicker.brand-danger > button[disabled].focus,
+  fieldset[disabled] .ui-iconpicker.brand-danger > button:hover,
+  fieldset[disabled] .ui-iconpicker.brand-danger > button:focus,
+  fieldset[disabled] .ui-iconpicker.brand-danger > button.focus {
+    background-color: #e20058;
+    border-color: #e20058; }
+  .ui-iconpicker.brand-danger > button .badge {
+    color: #e20058;
+    background-color: #fff; }
+
+.ui-iconpicker.disabled > button, .ui-iconpicker[disabled] > button,
+fieldset[disabled] .ui-iconpicker > button {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.ui-iconpicker > button > i {
+  padding-right: .5em; }
+
+.ui-iconpicker > ul.dropdown-menu {
+  max-height: 12.1em;
+  overflow-y: scroll;
+  padding: 0.5em 0.5em;
+  width: 12.1em; }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .ui-iconpicker > ul.dropdown-menu {
+      max-height: 15.1em;
+      width: 15.1em; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .ui-iconpicker > ul.dropdown-menu {
+      max-height: 23.1em;
+      width: 23.1em; } }
+  @media (min-width: 1200px) {
+    .ui-iconpicker > ul.dropdown-menu {
+      max-height: 23.1em;
+      width: 34.1em; } }
+  .ui-iconpicker > ul.dropdown-menu > li {
+    float: left; }
+    .ui-iconpicker > ul.dropdown-menu > li button {
+      height: 2.5em;
+      margin: 0.1em 0.1em;
+      padding: 0 0;
+      width: 2.5em; }
+

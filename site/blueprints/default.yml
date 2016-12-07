@@ -1,0 +1,8 @@
+title: Page
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  builder: builder
